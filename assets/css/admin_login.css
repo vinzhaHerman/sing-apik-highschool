@@ -1,0 +1,60 @@
+*{padding: 0; margin: 0;}
+body{background-image: url(../img/wallpapers/login.jpg); background-size: cover;}
+
+@font-face {
+    font-family: 'Oswald', sans-serif;
+}
+.serifs{font-family: sans-serif;}
+.oswalds{font-family: Oswald;}
+.verdanas{font-family: Verdana;}
+
+.maroons{color: maroon;}
+.crimsons{color: crimson;}
+.whites{color: #f2f2f2;}
+
+.spaces15{line-height: 1.5}
+
+
+
+
+
+/*-------------------*/
+
+
+
+
+
+.login-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.round-box{
+	padding: 50px;
+	background-color: rgb(252,252,252,0.55);
+	border: 1px;
+	border-radius: 12%;
+}
+.title{
+	font-size: 2.2vw;
+}
+input[type=text], select, textarea, input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    min-width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: crimson;
+    min-width: 250px;
+    color: white;
+    padding: 8px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

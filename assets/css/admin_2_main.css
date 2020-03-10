@@ -1,0 +1,185 @@
+*{padding: 0; margin: 0}
+@font-face {
+    font-family: 'Oswald', sans-serif;
+}
+.serifs{font-family: sans-serif;}
+.oswalds{font-family: Oswald;}
+.verdanas{font-family: Verdana;}
+
+.crimsons{color: crimson;}
+.whites{color: #f2f2f2;}
+
+.spaces15{line-height: 1.5}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.grid-item {
+  text-align: center;
+}
+
+
+
+
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.grid-item-2 {
+  text-align: center;
+}
+
+
+
+
+
+
+.cage-evt-container{
+  text-align: center;
+  margin: auto;
+  width:90%;
+
+}
+.cage-evt{
+  font-family: Oswald;
+  background-color: #EDEAE0;
+  border: none;
+  border-radius: 5%;
+  padding:10px;
+  margin:10px;
+  width:400px;
+  height:300px;
+  min-height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  text-align: left;
+}
+.cage-evt .cage-evt-title{
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid crimson;
+  font-size:16pt;
+  color: crimson;
+  font-style: normal;
+}
+.cage-evt .cage-evt-desc{
+  display:block;
+  min-height: 150px;
+  padding:10px;
+  font-size:12pt;
+  color:#333;
+  font-style: normal;
+}
+.button-news{
+  padding: 40px;
+}
+.button-news{
+  text-align: center;
+}
+.button-view a{
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 18px;
+  color: white;
+  padding: 14px 50px;
+  background-color: #8B0000; 
+}
+@media screen and (max-width: 600px){
+  .cage{
+    display: inherit;
+  }
+}
+
+
+
+
+
+.cage-evt-container-2{
+  text-align: center;
+  margin: auto;
+  width:90%;
+
+}
+.cage-evt-2{
+  font-family: Oswald;
+  background-color: #f2f2f2;
+  border-right: 5px solid crimson; 
+  padding:10px;
+  margin:10px;
+  width:970px;
+  height 300px;
+  min-height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  text-align: left;
+}
+.cage-evt-2 .cage-evt-title-2{
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid crimson;
+  font-size:16pt;
+  color: crimson;
+  font-style: normal;
+}
+.cage-evt-2 .cage-evt-desc-2{
+  display:block;
+  min-height: 150px;
+  padding:10px;
+  font-size:12pt;
+  color:#333;
+  font-style: normal;
+}
+.button-news-2{
+  padding: 40px;
+}
+.button-news-2{
+  text-align: center;
+}
+.button-view a{
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 18px;
+  color: white;
+  padding: 14px 50px;
+  background-color: #8B0000; 
+}
+@media screen and (max-width: 600px){
+  .cage{
+    display: inherit;
+  }
+}
+
+
+
+
+
+.mg-button {
+	text-decoration: none;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.mg-button-2{
+  text-decoration: none;
+    margin-left: 5px;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.mg-button-container-2{
+  float: right;
+  margin-right: 30px;
+}

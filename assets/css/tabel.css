@@ -1,0 +1,13 @@
+table{
+	margin-top: 30px;
+}
+table, td, tr{
+	border: 1px solid maroon;
+	border-collapse: collapse;
+}
+thead{
+	background-color: grey;
+}
+td{
+	padding: 10px;
+}

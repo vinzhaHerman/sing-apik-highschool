@@ -1,0 +1,420 @@
+*{ margin: 0; padding: 0; }
+
+body{
+	background-image: url(../images/main_slider1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+@font-face {
+    font-family: 'Oswald', sans-serif;
+}
+.serifs{font-family: sans-serif;}
+.oswalds{font-family: Oswald;}
+.verdanas{font-family: Verdana;}
+
+.crimsons{color: crimson;}
+.whites{color: #f2f2f2;}
+
+.spaces15{line-height: 1.5}
+.titles{font-weight: bold;}
+
+html {
+ 	scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+header{
+  text-align: right;
+  background-color: #333;
+  color: #f2f2f2;
+  padding: 12px;
+  padding-right:36px;
+}
+
+
+
+
+
+/*----------------*/
+
+
+
+
+/*
+nav{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #8B0000;
+    z-index: 999;
+}
+nav ul{
+	list-style-type: none;
+  display: inline-block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	font-family: Oswald;
+	font-size: 22px;
+	color: #f2f2f2;
+	display: block;
+  padding: 24px 24px;
+  text-decoration: none;
+}
+nav ul li a.glow{
+  background-color: #f2f2f2;
+  color: #8B0000;
+}
+nav ul li a.glow:hover{
+  background-color: #F8DE7E;
+}
+ul li a:hover{
+	color: #f2f2f2;
+  background-color: #8B0000;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-dropdown {
+    font-family: Oswald;
+    float: left;
+    overflow: hidden;
+}
+.nav-dropdown .dropbtn {
+    font-size: 22px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.nav-dropdown .dropbtn.glow{
+  background-color: #f2f2f2;
+  color: #8B0000;
+}
+.nav-dropdown .dropbtn.glow:hover{
+  background-color: #F8DE7E;
+}
+.dropbtn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropbtn-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #8B0000;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+.nav-dropdown:hover .dropbtn-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+.topnav .responsive{
+  position: relative;
+}
+.topnav .responsive li{
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+/*
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+.mainwrap{
+  margin: auto;
+}
+.splashimg{
+	text-align: center;
+	height: auto; 
+    width: auto; 
+    max-height: 92.5vh;
+    overflow: hidden;
+    opacity: 0;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.contentwrap{
+  margin: auto;
+}
+.contentwrap .title{
+	margin-top: -122px;
+	margin-left: 70px;
+	font-family: Oswald;
+	font-size: 42pt;
+	font-weight: bold;
+	color: #f2f2f2;
+}
+.subtitle{
+	text-align: center;
+	display: inline-block;
+}
+.contents{
+  padding: 70px;
+  min-height: 580px;
+	background-color: #f9f9f9;
+  margin: auto;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.left-content{
+  text-align: center;
+  float: left;
+  padding: 15px;
+  max-width: 250px;
+}
+.middle-content{
+  font-family: sans-serif;
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  max-width: 800px;
+}
+.main-text-title{
+  font-weight: normal;
+  color: crimson;
+  margin-bottom: 18px;
+}
+.middle-content .main-text{
+  text-align: left;
+  line-height: 1.5;
+}
+.redhighlights{
+  font-weight: bold;
+  color: crimson;
+}
+
+
+
+
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  padding-bottom: 150px;
+}
+.grid-item {
+  text-align: center;
+}
+.right{
+  padding-left: 15px;
+  text-align: left;
+}
+.pad-top{
+  padding-top: 50px;
+}
+.grid-image{
+  max-width: 550px;
+}
+
+
+
+
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+
+
+
+
+.left-image img{
+  float: left;
+  max-width: 560px;
+}
+.right-image img{
+  float: right;
+  max-width: 560px;
+}
+.right-text{
+  float: left;
+  padding-left: 32px;
+  max-width: 560px;
+  overflow: auto;
+}
+.left-text{
+  float: left;
+  max-width: 560px;
+}
+.clear{
+  clear: both;
+}
+.bottom-content{
+  display: block;
+  clear: both;
+}
+
+
+
+
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.grid-item-3 {
+  text-align: center;
+}
+
+.cage-evt-container-3{
+  text-align: center;
+  margin: auto;
+  width:90%;
+}
+.cage-evt-3{
+  font-family: Oswald;
+  background-color: #f2f2f2;
+  border-right: 5px solid crimson; 
+  padding:10px;
+  margin:10px;
+  width:900px;
+  height 300px;
+  min-height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  text-align: left;
+}
+.cage-evt-3 .cage-evt-title-3{
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid crimson;
+  font-size:16pt;
+  color: crimson;
+  font-style: normal;
+}
+.cage-evt-3 .cage-evt-desc-3{
+  display:block;
+  min-height: 150px;
+  padding:10px;
+  font-size:12pt;
+  color:#333;
+  font-style: normal;
+}
+.button-news-3{
+  padding: 40px;
+}
+.button-news-3{
+  text-align: center;
+}
+.button-view a{
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 18px;
+  color: white;
+  padding: 14px 50px;
+  background-color: #8B0000; 
+}
+.mg-button-2{
+  text-decoration: none;
+    margin-left: 5px;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.mg-button-container-2{
+  float: right;
+  margin-right: 30px;
+}
+@media screen and (max-width: 600px){
+  .cage{
+    display: inherit;
+  }
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+
+
+footer {
+  font-family: Oswald;
+   width: 100%;
+   min-height: 180px;
+   background-color: #333;
+   color: white;
+}
+.footer-container{
+  margin: auto;
+  padding: 30px;
+  width: 90%;
+} 
+.footer-block{
+  display: inline-block;
+}
+.school-title{
+  color: orange;
+  font-weight: bold;
+}
+.footer-block.footer-right{
+  float: right;
+  vertical-align: middle;
+}
+.footer-block.footer-right i{
+  padding: 10px;
+}
+.footer-container .footertext{
+  line-height: 1.8;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
